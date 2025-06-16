@@ -6,12 +6,34 @@
     <title>Gweneth's Project</title>
     <style>
         *{box_sizing; border_box;}
-        #container{width:800px; background-color: cornflowerblue; height: 600px; margin:0 auto;}
+        #container{width:800px; background-color: cornflowerblue; height: 860px; margin:0 auto;}
         p{color:white}
         .floaterLeft{
-            float:left; 
+            float:left;
             width: 250px;
+            height: 300px;
             background-color: darkcyan;
+        }
+        h3{
+            clear:both
+        }
+        nav{
+            clear:both
+        }
+        .pictureleft{
+            float:left;
+            width: 150px;
+            margin-top: 170px;
+        }
+        .zoneright{
+            float:left;
+            width: 130px;
+            margin-top: 20px;
+            margin-left: 300px;
+        }
+        .farleft{
+            float: left;
+            width: 250px;
         }
         footer{
             clear:both
@@ -20,16 +42,32 @@
         #main{
             margin-left: 20px;
             background-color:antiquewhite;
+            height: 160px;
+            padding-left: 20px;
+        }
+        #glass{
+            margin-right: 20px;
+            background-color: antiquewhite;
+            padding-left: 20px;
+        }
+        #zone{
+            margin-right: 20px;
+            background-color: antiquewhite;
             padding-left: 20px;
         }
     </style>
 </head>
 <body>
     <div id="container" >
-        <header><h1>Good Morning</h1></header>
+        <header><h1>Hello!</h1></header>
+        <header><h2>I am studying <i>Digital Media</i></h2></header>
+        <a class="farleft"href="https://www.youtube.com/watch?v=r8oBfM3qCrc" style="width: 300px;"><h3>This is what I recently watched!</h3></a>
+        <h3 title="Mood subject to change"><em>I am currently:</em><b>Tired</b></h3>
         <nav class="floaterLeft"><p>This is a navigation space!</p></nav>
         <main id="main" class="floaterLeft"><img src="images/familyguy.jpg" style="width:300px;" alt="Family guy screenshot"/></main>
-        <footer><p>Copyright Gweneth Marroquin 2025</p></footer>
+        <main id="glass" class="pictureleft"><img src="images/localinfluencer.jpg" style="width: 200px; height: 200px;" alt="I am Former Local Influencer"/></main>
+        <main id="zone" class="zoneright"><img src="images/autozone.png" style="width:150px;" alt="Auto zone closed"/></main>
+        <footer><p>&#169 Gweneth Marroquin 2025</p></footer>
 
 
 
